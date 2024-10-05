@@ -65,14 +65,14 @@ def __iadd__(self, value):
     return self
 
 
-house_JR = House('Жигулина роща',16)
-house_GM = House('Город Мира',9)
+house_JR = House('Балтийский берег',15)
+house_GM = House('Янтарный берег',10)
 
 print(str(f'\n {house_JR}'))
 print(str(house_GM))
 print(f'{house_JR == house_GM}\tравенство этажности домов\n')
 
-house_GM = house_GM + 7
+house_GM = house_GM + 5
 print(str(house_GM))
 print(str(house_JR))
 print(f'{house_JR == house_GM}\tравенство этажности домов\n')
